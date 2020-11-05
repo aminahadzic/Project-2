@@ -1,13 +1,13 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Grotesk:wght@500&display=swap');
+html{
+  font-family: 'Montserrat';
+}
 body {
-      background-color: rgb(207, 67, 67);
-
+  background: rgb(164,162,163);
+background: radial-gradient(circle, rgba(164,162,163,0.8629201680672269) 0%, rgba(43,43,43,1) 98%);
     }
-      .topnav {
-        overflow: hidden;
-        background-color: #333;
-      }
-      ul {
+     
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,10 +18,16 @@ body {
   .skills_ul{
     list-style-type: circle;
   }
+  #title{
+    color: lightgray;
+    font-family: 'Montserrat';
+    
+  }
   #intro{
-    border: 5px solid blanchedalmond;
+    border: 0.5px solid blanchedalmond;
     margin-left: auto;
     margin-right: auto;
+    
 
 
   }
@@ -30,7 +36,8 @@ body {
         width: 100%;
       }
       #td_one{
-        background-color:rgba(230, 198, 198, 0.719);
+        background: rgb(255,250,250);
+        background: linear-gradient(274deg, rgba(255,250,250,0.40913865546218486) 0%, rgba(78,52,52,0.8293067226890756) 100%);
         
         font-size: 1.9em;
         width: 40%;
@@ -39,16 +46,23 @@ body {
         
         width: 40%;
       }
+     
+      /*--Navigation Bar--*/
+      .topnav {
+        overflow: hidden;
+        background-image: url("white-marble-texture-background_42682-249\ \(1\).jpg");
+      }
 #nav_one{
-  padding-left: 30%;
+  padding-left: 25%;
 }
       .topnav a {
         float: left;
-        color: #f2f2f2;
+        color: #270707;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 20px;
+        font-family: 'Montserrat' ;
       }
       
       .topnav a:hover {
@@ -60,74 +74,102 @@ body {
         background-color: rgba(241, 127, 112, 0);
         color: white;
     }
+    /*End of Navigation*/
     #portfolio{
-      background-color:rgba(95, 85, 85, 0.548);
+      background: rgb(250,219,198);
+background: linear-gradient(354deg, rgba(250,219,198,0.7984943977591037) 0%, rgba(167,48,56,0.7284663865546219) 100%);
+     
       text-align: justify;
       font-size: 1.15em;
+      font-family: 'Montserrat';
       margin: auto;
       width: 50%;
       padding-bottom: 1.5%;
       border: 2px solid rgba(241, 212, 212, 0.795);
     }
     #heading_portfolio{
+      background-image: url("depositphotos_273216620-stock-photo-abstract-background-white-marble-with.jpg");
+      font-family: 'Montserrat';
       text-align: center;
-      color: darksalmon;
+      color: rgb(10, 10, 10);
     }
+    /*Education part*/
     #education_one{
       background-color:rgba(255, 206, 187, 0.733);
       text-align: justify;
       font-size: 1.15em;
+      font-family: 'Montserrat' ;
       margin: auto;
       width: 50%;
-      border: 2px solid rgb(34, 10, 10);
+      border: 1px solid rgb(104, 85, 85);
 
     }
     #heading_ed_one{
+      background-image: url("white-marble-texture-background_42682-249\ \(1\).jpg");
       text-align: center;
+      font-family: 'Montserrat' ;
     }
     #education_two{
-      background-color:rgba(255, 206, 187, 0.733);
+      background-color:rgba(255, 206, 187, 0.699);
       text-align: justify;
       font-size: 1.15em;
+      font-family: 'Montserrat' ;
       margin: auto;
       width: 50%;
-      border: 2px solid rgb(34, 10, 10);
+      border: 1px solid rgb(112, 88, 88);
 
     }
     #heading_ed_two{
+      background-image: url("white-marble-texture-background_42682-249\ \(1\).jpg");
       text-align: center;
+      font-family: 'Montserrat' ;
     }
+    /*End of education part*/
+    /*Skills part*/
     #skills{
-      background-color:rgba(211, 181, 181, 0.897);
+      background-color:rgba(211, 181, 181, 0.747);
       text-align: justify;
       font-size: 1.15em;
+      font-family: 'Montserrat' ;
       margin: auto;
       width: 50%;
       padding-bottom: 1.5%;
       border: 2px solid rgba(241, 212, 212, 0.795);
     }
     #heading_skills{
+      font-family: 'Montserrat' ;
+      background-image: url("depositphotos_273216620-stock-photo-abstract-background-white-marble-with.jpg");
       text-align: center;
+      font-size: 1.3em
     }
+    /*End of skills part*/
+    /*Contact part*/
     #contact{
-      background-color:rgba(255, 206, 187, 0.733);
+      background-color:rgba(255, 206, 187, 0.644);
       text-align: justify;
       font-size: 1.15em;
+      font-family: 'Montserrat' ;
       margin: auto;
       width: 50%;
       border: 2px solid rgb(34, 10, 10);
 
     }
     #heading_contact{
+      background-image: url("white-marble-texture-background_42682-249\ \(1\).jpg");
+      font-family: 'Montserrat' ;
       text-align: center;
     }
     .table_one{
-      width: 20%;
+      
+      width: 30%;
     }
+    /*End of contact part*/
+    /*Location part*/
     #location{
       background-color:rgba(211, 181, 181, 0.897);
       text-align: justify;
       font-size: 1.15em;
+      font-family: 'Montserrat' ;
       margin: auto;
       width: 50%;
       padding-bottom: 1.5%;
@@ -135,28 +177,38 @@ body {
 
     }
     #heading_location{
+      font-family: 'Montserrat' ;
+      background-image: url("depositphotos_273216620-stock-photo-abstract-background-white-marble-with.jpg");
       text-align: center;
     }
+    /*End of location part*/
     #ending{
-      background-color:rgba(255, 255, 255, 0.301);
+      font-family: 'Montserrat' ;
+      background: rgb(250,219,198);
+      background: linear-gradient(354deg, rgba(250,219,198,0.7984943977591037) 0%, rgba(167,48,56,0.7284663865546219) 100%);
       text-align: center;
-      
+      background-image: url("depositphotos_273216620-stock-photo-abstract-background-white-marble-with.jpg");
+      color: rgba(167,48,56,0.7284663865546219);
       margin: auto;
       width: 50%;
       
       border: 2px solid rgba(241, 212, 212, 0.795);
     }
+    /*Link for backtobeginning*/
     #go_home{
-     
-      background-color:rgba(255, 251, 251, 0.356);
-      border: 2px solid rgba(241, 212, 212, 0.795);
+      font-family: 'Montserrat' ;
+      background: rgb(250,219,198);
+      background: radial-gradient(circle, rgba(250, 219, 198, 0.13) 0%, rgba(167,48,56,0.7284663865546219) 100%);
+      border: 0.1px solid rgba(241, 212, 212, 0.795);
+      text-align: center;
+      font-size: 1.2em;
+    }
+    /*Link for Project1*/ 
+    #link_project{
+      font-family: 'Montserrat' ;
+      background-color:rgba(255, 251, 251, 0.13);
+      border: 0.1px solid rgba(241, 212, 212, 0.795);
       text-align: center;
       font-size: 1.2em;
       
-    }
-    #link_project{
-      background-color:rgba(255, 251, 251, 0.356);
-      border: 2px solid rgba(241, 212, 212, 0.795);
-      text-align: center;
-      font-size: 1.2em;
     }
